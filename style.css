@@ -210,3 +210,10 @@ header{
 .feature-text p{
   font-size: 0.9rem;
 }
+.heading{
+  font-size: 3.5rem;
+  font-weight: 500;
+  font-family: var(--font-family-2);
+  text-align: center;
+  margin: 2rem !important;
+}
