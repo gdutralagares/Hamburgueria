@@ -169,7 +169,7 @@ header{
   cursor: pointer;
 }
 .btn:hover{
-  background: var(--text-color);
+  background: var(--brown);
   transition: 0.4s all cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 .home-img{
@@ -307,4 +307,11 @@ header{
   font-weight: 500;
   padding: 10px 15px;
   border-radius: 8px;
+  transition: transform 0.4s ease;
+}
+.item-btn:hover{
+  background: var(--brown);
+  color: var(--bg-color);
+  transform: scale(1.05);
+  transition: transform 0.4s ease;
 }
