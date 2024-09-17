@@ -191,8 +191,8 @@ header{
   grid-template-columns: repeat(auto-fit, minmax(auto,280px));
   justify-content: space-between;
   gap: 1rem;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
   border-bottom: 1px solid rgb(18 18 18 /20%);
 }
 .feature-box{
@@ -299,5 +299,12 @@ header{
 .item-box .price p{
   text-decoration: line-through;
   font-weight: 500;
-  color: rgb(var(--brown));
+  color: rgb(var(--brown), 0.8);
+}
+.item-btn{
+  background: var(--yellow-color);
+  color: var(--brown);
+  font-weight: 500;
+  padding: 10px 15px;
+  border-radius: 8px;
 }
