@@ -254,7 +254,7 @@ header{
   grid-template-columns: repeat(4, 1fr);
   gap: 1.5rem;
 }
-.item-box{
+.item-box {
   position: relative;
   background: var(--bg-color);
   padding: 24px 14px;
@@ -264,4 +264,40 @@ header{
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+}
+.item-box .sale {
+  position: absolute;
+  right: 14px;
+  top: 14px;
+  background: var(--text-color);
+  color: var(--bg-color);
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+.item-box img{
+  max-width: 264px;
+  width: 100%;
+  object-position: center;
+  margin-bottom: 1.2rem;
+}
+.item-box h2{
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--brown);
+}
+.item-box .price{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 1.2rem;
+}
+.item-box .price h3{
+  color: var(--brown);
+  font-weight: 400;
+}
+.item-box .price p{
+  text-decoration: line-through;
+  font-weight: 500;
+  color: rgb(var(--brown));
 }
