@@ -48,6 +48,7 @@ header{
   border-bottom: 1px solid rgb(255 255 255 /10%);
   z-index: 100;
 }
+/*nav*/
 .nav{
   display: flex;
   align-items: center;
@@ -125,6 +126,7 @@ header{
 .move .line3{
   transform: rotate(45deg) translate(-5px, -5px);
 }
+/*home*/
 .home{
   min-height: 650px;
   background: var(--red);
@@ -186,6 +188,8 @@ header{
   object-fit: cover;
   object-position: center center;
 }
+
+/*features*/
 .features{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(auto,280px));
@@ -246,6 +250,8 @@ header{
   color: var(--text-color);
   opacity: 0.7;
 }
+
+/*items*/
 .items{
   background: var(--container-color);
 }
