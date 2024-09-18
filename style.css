@@ -366,4 +366,10 @@ header{
   font-size: 1rem;
   font-weight: 400;
   letter-spacing: 1px;
+  cursor: pointer;
+}
+.newsletter form .s-btn:hover{
+  background: var(--brown);
+  color: var(--bg-color);
+  transition: 0.4s ease-in-out;
 }
