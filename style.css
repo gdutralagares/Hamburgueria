@@ -223,6 +223,7 @@ header{
 }
 .feature-menu{
   padding-bottom: 2rem;
+  padding-top: 2rem;
 }
 .feature-menu-content{
   display: grid;
@@ -428,4 +429,13 @@ header{
 .footer-box a{
   color: var(--bg-color);
   margin-bottom: 10px;
+}
+.footer-box a:hover{
+  color: var(--yellow-color);
+
+}
+.copyright{
+  padding: 20px;
+  color: var(--bg-color);
+  text-align: center;
 }
