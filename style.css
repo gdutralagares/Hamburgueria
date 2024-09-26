@@ -513,6 +513,7 @@ header{
   .nav-link{
     display: block;
     margin: 1rem 0;
+    font-size: 18px;
   }
   .home-content{
     grid-template-columns: 1fr;
@@ -580,4 +581,15 @@ header{
   .home-mask{
     justify-content: center;
   }
+  .home-content{
+    align-items: center;
+  }
+}
+@media (max-width: 450px){
+  .home-content{
+    padding: 10px;
+  }
+  .heading {
+    font-size: 1.5rem;
+}
 }
