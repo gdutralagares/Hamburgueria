@@ -432,10 +432,22 @@ header{
 }
 .footer-box a:hover{
   color: var(--yellow-color);
-
 }
 .copyright{
   padding: 20px;
   color: var(--bg-color);
   text-align: center;
+}
+/*Responsividade*/
+@media (max-width: 1410px){
+  .container{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .features{
+    border-bottom: none;
+  }
+  .feature-box{
+    border-bottom: 1px solid rgb(18, 18, 18 / 20%);
+  }
 }
