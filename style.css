@@ -377,7 +377,7 @@ header{
 .footer{
   background: var(--text-color);
   color: var(--bg-color);
-  padding-left: 100px;
+  padding-left: 0px;
 }
 .footer-content{
   display: grid;
@@ -394,6 +394,7 @@ header{
 .footer-box{ 
   display: flex;
   flex-direction: column;
+  padding-left: 100px;
 }
 .social{
   display: flex;
@@ -433,11 +434,13 @@ header{
 .footer-box a:hover{
   color: var(--yellow-color);
 }
+
 .copyright{
   padding: 20px;
   color: var(--bg-color);
   text-align: center;
 }
+
 /*Responsividade*/
 @media (max-width: 1410px){
   .container{
@@ -461,6 +464,9 @@ header{
     font-size: 2rem;
     line-height: 2rem;
     font-weight: 400;
+  }
+  .footer-box{ 
+    padding-left: 50px;
   }
 }
 @media (max-width: 1010px){
@@ -541,6 +547,9 @@ header{
     flex-direction: column;
     gap: 0px;
     margin: 1rem 0;
+  }
+  .footer-box{ 
+    padding-left: 20px;
   }
 }
 @media (max-width: 770px){
